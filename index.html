@@ -23,9 +23,15 @@
         <section>
             <h1>BUSCAR una pel·lícula</h1>
         <p>Milions de títols,un sol cercador.</p>
-        <input type ="text" placeholder="Cercar una pel·lícula com per exemple: 'The Matrix'">
-            <button type="submit">cercar</button>
+        <form method="get" action="https://www.themoviedb.org/search">.
+            <div>
+                <label for="search">Cercar una pel·lícula</label>
+                <input type ="search" id="cerca" name="query" placeholder="Cercar una pel·lícula com per exemple: 'Dune'" required>
+                <button type="submit">cercar</button>
+                </div> 
+             <form>
         </section>
+
         <section>
         <h2>Resultats de la cerca</h2>
         
